@@ -1,3 +1,3 @@
-Given /^I am on (.*)$/ do |url|
-  visit url
+Given /^I am on (.*)$/ do
+  visit('/')
 end
